@@ -1,0 +1,10 @@
+SET mystNumb TO "7"
+SENT "please enter guess number" TO DISPLAY
+RECIEVE guess FROM KEYBOARD
+
+if guess > 10:
+  Send 'you guessed too high
+  if guess = mystNumb
+  SEND 'Congratulations'
+  else:
+  Send 'Wrong, correct answer was' + mystNumb
